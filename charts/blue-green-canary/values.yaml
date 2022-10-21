@@ -1,0 +1,11 @@
+blue:
+  color: "blue"
+  ingress:
+    enabled: true
+    className: "nginx"
+
+green:
+   color: "green"
+   ingress:
+     enabled: false
+     className: "nginx"
