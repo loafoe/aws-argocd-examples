@@ -8,8 +8,8 @@ An example blue-green deployment with canary support
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://loafoe.github.io/helm-charts | blue(go-hello-world) | 0.3.0 |
-| https://loafoe.github.io/helm-charts | green(go-hello-world) | 0.3.0 |
+| https://loafoe.github.io/helm-charts | blue(go-hello-world) | 0.4.0 |
+| https://loafoe.github.io/helm-charts | green(go-hello-world) | 0.4.0 |
 
 ## Values
 
