@@ -4,12 +4,18 @@ Example ArgoCD projects for deploying workloads to Healthsuite Managed AWS subac
 
 ## Deployment
 
-You can deploy this project using ArgoCD
+You can deploy this project using ArgoCD. Clone this repository and add it to your ArgoCD reposities list. 
+Then create an application using the `charts/blue-green-canary` Chart. The default values will only activate
+the `blue` deployment.
 
-## Canary deployment
+## Canary
 
 You can trigger a canary deployment using the below `values.yaml`. Replace the `host` value
-with the frontdoor URL you'd like to use in your cluster
+with the frontdoor URL you'd like to use in your cluster. In the example the traffic evenly
+between the blue and green deployment. Change the `nginx.ingress.kubernetes.io/canary-weight`
+to `100` to move all traffic to the green application. You can then update the `blue` version 
+with your next release, rinse and repeat.
+
 
 ```yaml
 
@@ -38,3 +44,4 @@ green:
         - path: /
           pathType: ImplementationSpecific
 ```
+
