@@ -2,13 +2,15 @@
 
 Example ArgoCD projects for deploying workloads to Healthsuite Managed AWS subaccount EKS clusters
 
-## Deployment
+## blue-green-canary
+
+### Deployment
 
 You can deploy this project using ArgoCD. Clone this repository and add it to your ArgoCD reposities list. 
 Then create an application using the `charts/blue-green-canary` Chart. The default values will only activate
 the `blue` deployment.
 
-## Canary
+### Canary
 
 You can trigger a canary deployment using the below `values.yaml`. Replace the `host` value
 with the frontdoor URL you'd like to use in your cluster. In the example the traffic evenly
@@ -45,3 +47,6 @@ green:
           pathType: ImplementationSpecific
 ```
 
+## License
+
+License is MIT
