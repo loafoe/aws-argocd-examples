@@ -1,0 +1,12 @@
+# Business Category ID according to https://share.philips.com/sites/SWCoE/Lists/List%20of%20Business%20Categories/AllItems.aspx
+# Example for SWCoE: 62
+business-category: 21
+
+# Direct link to details business-category. Change the ID in the URL below.
+business-category-details: https://share.philips.com/sites/SWCoE/Lists/List%20of%20Business%20Categories/DispForm.aspx?ID=21&e=XYmARn
+
+####################################################################################################################
+# Optional Fields                                                                                                  #
+####################################################################################################################
+# Template version
+version: 1
