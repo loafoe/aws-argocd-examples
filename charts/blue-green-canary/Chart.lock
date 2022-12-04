@@ -1,9 +1,9 @@
 dependencies:
 - name: go-hello-world
   repository: https://loafoe.github.io/helm-charts
-  version: 0.5.0
+  version: 0.5.1
 - name: go-hello-world
   repository: https://loafoe.github.io/helm-charts
-  version: 0.5.0
-digest: sha256:2798907a6104f57cfd071498c177f06c9934ffd0f9d749b4d885242be2ad5d08
-generated: "2022-12-04T15:23:18.573838+01:00"
+  version: 0.5.1
+digest: sha256:4e6216de580800fa8ed0f589e256981e745ae9d6daaad3128bc13a61e0495ab0
+generated: "2022-12-04T17:57:49.537625+01:00"
